@@ -1,0 +1,83 @@
+>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My AI</title>
+
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+font-family: Arial, sans-serif;
+}
+
+body {
+background: #212121;
+color: white;
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+header {
+background: #171717;
+padding: 16px 20px;
+font-size: 20px;
+font-weight: bold;
+border-bottom: 1px solid #333;
+}
+
+#chat {
+flex: 1;
+overflow-y: auto;
+padding: 25px 15%;
+}
+
+.message {
+padding: 15px;
+margin-bottom: 15px;
+border-radius: 10px;
+line-height: 1.5;
+white-space: pre-wrap;
+}
+
+.user { background: #343541; }
+
+.ai { background: #444654; }
+
+.input-area {
+padding: 15px 15%;
+display: flex;
+gap: 10px; background: #212121;
+border-top: 1px solid #333;
+
+}
+
+#input {
+flex: 1;
+padding: 15px;
+border-radius: 10px;
+border: 1px solid #555;
+background: #2F2F2F;
+color: white;
+outline: none;
+font-size: 16px;
+}
+
+button {
+padding: 0 22px;
+border: none;
+border-radius: 10px;
+background: #10a37f;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+button:hover {
+background: #0d8f70;
+}
+
+@media (max-width: 700px) {
